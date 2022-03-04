@@ -1,0 +1,11 @@
+.item {
+	box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08),
+		0 1px 3px 1px rgba(60, 64, 67, 0.16);
+	padding: 30px;
+	margin: 15px 20% auto 20%;
+	background-color: white;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 5px;
+}

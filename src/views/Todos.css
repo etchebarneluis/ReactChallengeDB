@@ -1,0 +1,26 @@
+.todoslist {
+	width: 400px;
+	height: 500px;
+	box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08),
+		0 1px 3px 1px rgba(60, 64, 67, 0.16);
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.todoListItem {
+	box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08),
+		0 1px 3px 1px rgba(60, 64, 67, 0.16);
+	padding: 15px;
+	margin: 10px;
+	background-color: white;
+	text-align: left;
+	border-radius: 5px;
+}
+
+a.details {
+	text-align: right;
+	display: flex;
+	justify-content: end;
+}

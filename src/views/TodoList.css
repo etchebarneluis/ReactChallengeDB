@@ -1,0 +1,48 @@
+.todolist {
+	width: 400px;
+	height: 500px;
+	box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08),
+		0 1px 3px 1px rgba(60, 64, 67, 0.16);
+	margin: 0 auto;
+	overflow-y: auto;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+input {
+	height: 34px;
+	width: 60%;
+	border: 1px solid #e1dfdf;
+	margin: 6px;
+	padding-left: 7px;
+}
+
+button {
+	padding: 10px 11px;
+	background-color: #e1e1e1;
+	border: none;
+	cursor: pointer;
+	display: inline;
+}
+
+.saveButton {
+	margin-left: 10px;
+}
+
+.close {
+	display: flex;
+	align-items: center;
+	float: right;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+}
+
+span {
+	color: dimgray;
+}
